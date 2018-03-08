@@ -2,9 +2,9 @@
 * get
 * post
 ```
-GET http://weather.example.org/oaxaca HTTP/1.1   // get this link and version of HTTP protocol
-HOST: weather.example.org   // server
-Accept: application/xhtml+xml   //client is expected to get back
+GET http://weather.example.org/oaxaca HTTP/1.1   // хочемо отримати це посилання, версія HTTP протоколу
+HOST: weather.example.org   // сервер
+Accept: application/xhtml+xml   // шо клієнт очікує
 ```
 ### Server response
 ```
@@ -17,10 +17,10 @@ Content-Type: application/xhtml+xml; charset=utf-8
  <head>
   <title>5 day forecast...
 ```
-### Common HTTP Status Codes
+### поширені HTTP Status Codes
 * 200 - OK
-* 404 - Resource not found
-* 500 - Server Error
+* 404 - ресурс не знайдено
+* 500 - помилка сервера
 ### Status Code Ranges
 * 100s - інформативні
 * 200s - успішні
