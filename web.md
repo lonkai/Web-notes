@@ -27,3 +27,23 @@ Content-Type: application/xhtml+xml; charset=utf-8
 * 300s - перенаправлення(шось перемістилось)
 * 400s - помилки клієнта
 * 500s - помилки сервера
+
+### HTML5 input elements
+* color* Provides a color picker
+* date* Provides a date picker
+* datetime* Provides a date/time picker
+* month* Enables users to select a numeric month and year
+* week* Enables users to select a numeric week and year
+* time* Enables users to select a time of day
+* number* Forces the input to be numeric
+* Range Allows users to select a value within a range by using a slider bar
+* tel* Formats entered data as a phone number
+* url Formats entered data as a properly formatted URL
+* Radio† Enables users to select a single value for a list of choices
+* Checkbox† Enables users to select multiple values in a list of choices
+* Password† Captures a password and glyphs the entered characters
+* Button† Enables users to perform an action such as run script
+* Reset† Resets all HTML elements within a form
+* Submit† Posts the form data to a destination for further processing
+1. *Not supported currently by Internet Explorer
+2. †Not new in HTML5
